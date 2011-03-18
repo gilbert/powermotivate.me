@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title PowerMotivate.me
+    = stylesheets
+  %body
+    #container
+      = yield
+    
+    = javascripts 'raphael', 'raphael-svg-import', 'fonts/Helvetica_300.font'
+    = javascripts 'jquery-1.5.1'
+    = javascripts 'support/underscore', 'support/backbone', 'support/backbone.localStorage'
+    = javascripts 'util', 'svg', :qstring => true
+    
+    = javascripts 'mark', 'calendar', :qstring => true
+    = javascripts 'app', :qstring => true

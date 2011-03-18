@@ -1,0 +1,18 @@
+/* line 1 */
+html {
+  height: 100%;
+}
+
+/* line 4 */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #3e6793;
+}
+
+/* line 10 */
+#container {
+  width: 100%;
+  height: 100%;
+}
